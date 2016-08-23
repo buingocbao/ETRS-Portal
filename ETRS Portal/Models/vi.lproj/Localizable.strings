@@ -1,0 +1,145 @@
+/* 
+  Localizable.strings
+  ETRS Portal
+
+  Created by BBaoBao on 9/11/15.
+  Copyright (c) 2015 buingocbao. All rights reserved.
+*/
+
+//Day - Month
+monday = "Thứ hai";
+tuesday = "Thứ ba";
+wednesday = "Thứ tư";
+thursday = "Thứ năm";
+friday = "Thứ sáu";
+saturday = "Thứ bảy";
+sunday = "Chủ Nhật";
+
+january = "Tháng 1";
+february = "Tháng 2";
+march = "Tháng 3";
+april = "Tháng 4";
+may = "Tháng 5";
+june = "Tháng 6";
+july = "Tháng 7";
+august = "Tháng 8";
+september = "Tháng 9";
+october = "Tháng 10";
+november = "Tháng 11";
+december = "Tháng 12";
+
+month = "Tháng";
+year = "Năm";
+
+//Alert Button
+ok = "Vâng";
+cancel = "Không, cảm ơn";
+success = "Thành công";
+error = "Lỗi";
+
+//Login screen
+account = "Tài khoản";
+password = "Mật khẩu";
+login = "Đăng nhập";
+forgot = "Quên mật khẩu?";
+invalid = "Vô hiệu";
+error = "Lỗi";
+error_login_fail = "Đăng nhập thất bại. Hãy kiểm tra Tài khoản và Mật khẩu, sau đó thử lại.";
+invalid_acc_empty = "Tài khoản không thể để trống";
+invalid_pass_empty = "Mật khẩu không thể để trống";
+invalid_pass_greater = "Mật khẩu phải lớn hơn 6 kí tự";
+missing = "Thiếu";
+missing_mess = "Xin hãy điền email vào ô tài khoản.";
+pass_reset = "Đặt lại mật khẩu";
+pass_reset_mess = "Một email bao gồm thông tin để đặt lại mật khẩu đã được gửi đến ";
+
+//Time Record screen
+check = "KIỂM TRA";
+status = "Trạng thái";
+have_no_record_message = "Bạn không có bản ghi thời gian nào trong ngày hôm nay. Bạn có muốn thực hiện chấm công vào bây giờ không?";
+success_check_in = "Bạn đã chấm công vào thành công. Chúc ngày làm việc tốt lành!";
+error_check_in = "Một vài lỗi đã xảy ra. Xin hãy báo cáo lỗi này đến quản trị viên: ";
+have_checkin_no_checkout_message1 = "Bản ghi chấm công vào của bạn hôm nay lúc: ";
+have_checkin_no_checkout_message2 = ".\nBạn có muốn chấm công ra không?";
+have_checkin_and_checkout_message1 = "Bản ghi chấm công vào của bạn hôm nay lúc: ";
+have_checkin_and_checkout_message2 = ", và bản ghi chấm công ra của bạn hôm nay lúc: ";
+have_checkin_and_checkout_message3 = ".\nNếu bạn có vấn đề gì, xin hãy liên hệ tới quản lý hoặc quản trị viên để báo cáo.";
+
+success_check_out = "Bạn đã chấm công ra thành công. Hẹn gặp lại!";
+
+//Create Admin screen
+create_employee_mainLB = "TẠO MỚI NHÂN VIÊN";
+confirmPassword = "Xác nhận mật khẩu";
+firstName = "Tên và chữ lót";
+lastName = "Họ";
+employee = "Nhân viên";
+manager = "Quản lý";
+admin = "Quản trị viên";
+assign_supervisor = "Gán giám sát viên";
+assign_beacon = "Gán Beacon";
+supervised_by = "Được giám sát bởi";
+beacon_is = "Beacon: ";
+assign_music = "Gán nhạc";
+commit_button = "Xác nhận";
+signUp_success = "Đăng kí thành công";
+signUp_success_mess = "Một email bao gồm qui trình xác nhận đã được gửi đến ";
+error_signup = "Lỗi xảy ra! Xin hãy liên hệ đến lập trình viên để thông báo về lỗi này.";
+
+//Manage Orgranization Screen
+manage_orgranization = "Quản lý tổ chức";
+
+////Pick Employee Screen
+supervisor = "Giám sát viên";
+device = "Thiết bị";
+email_status = "Tình trạng email";
+email_status_true = "XÁC THỰC";
+email_status_false = "CHƯA XÁC THỰC";
+save = "Lưu";
+warning = "Cảnh báo";
+reset_employee_device = "Tính năng này dùng để đặt lại thiết bị đã được đăng kí của nhân viên này. Bạn có thật sự muốn đặt lại?";
+
+//Manager Beacon Screen
+manage_beacon = "Quản lý Beacon";
+
+////Pick Beacon Screen
+beacon_descriptionLB = "Mô tả";
+
+////Add New Beacon
+add = "THÊM";
+add_beacon = "Thêm Beacon Mới";
+error_denied_beacon = "Thiết bị của bạn đã từ chối phát hiện beacon. Xin hãy thay đổi quyền truy cập trong cài đặt của máy.";
+error_restricted_beacon = "Thiết bị của bạn đã hạn chế các dịch vụ định vị. Xin hãy thay đổi quyền truy cập trong cài đặt của máy.";
+error_ranging_beacon = "Xác định beacon thất bại bởi vì: ";
+error_context_beacon = "Xin hãy chọn CONTEXT của beacon.";
+error_color_beacon = "Xin hãy chọn MÀU cho beacon bằng cách nhấn vào hình beacon.";
+success_add_beacon = "Thêm beacon thành công.";
+error_add_beacon = "Thêm beacon thất bại bởi vì: ";
+error_exist_beacon = "Beacon này đã tồn tại với thông tin: ";
+error_denied_add_employee = "Bạn không có quyền truy cập vào chức năng này.";
+
+//Manage Company Screen
+manage_company = "Quản lý doanh nghiệp";
+
+////Offical Hours Screen
+offical_hours = "Giờ hành chính";
+set_start_hours = "ĐẶT BẮT ĐẦU";
+set_end_hours = "ĐẶT KẾT THÚC";
+
+////KPI Employee Pick
+kpi_employee = "KPI Nhân viên";
+no_chart_data = "KHÔNG THỂ TÌM THẤY BẤT KÌ BẢN GHI NÀO CỦA NHÂN VIÊN NÀY.";
+save_graph_to_cameraroll = "Chức năng này sẽ lưu biểu đồ tháng này trong năm của nhân viên hiện tại vào thư viện ảnh. Bạn có đồng ý không?";
+start_record_BT_title = "VÀO";
+end_record_BT_title = "RA";
+
+////Export Record Screen
+export_record = "Xuất Bảng Ghi";
+all_employee = "Tất cả nhân viên";
+selected_employees = "Những nhân viên được chọn";
+pick_at_least_one_emp = "Xin hãy chọn ít nhất một nhân viên để xuất bản ghi.";
+
+//Setting Screens
+setting = "Cài đặt";
+////Change Language Screen
+language = "Ngôn ngữ";
+changed_language_success = "Đã đổi ngôn ngữ thành công. Bạn sẽ được đưa đến màn hình chính.";

@@ -1,0 +1,33 @@
+PODS:
+  - AsyncDisplayKit (1.2.2):
+    - AsyncDisplayKit/ASDealloc2MainObject (= 1.2.2)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.2.2)
+  - Charts (2.1.4)
+  - CryptoSwift (0.0.14)
+
+DEPENDENCIES:
+  - AsyncDisplayKit (from `https://github.com/facebook/AsyncDisplayKit.git`)
+  - Charts
+  - CryptoSwift (from `https://github.com/krzyzanowskim/CryptoSwift`, branch `master`)
+
+EXTERNAL SOURCES:
+  AsyncDisplayKit:
+    :git: https://github.com/facebook/AsyncDisplayKit.git
+  CryptoSwift:
+    :branch: master
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+
+CHECKOUT OPTIONS:
+  AsyncDisplayKit:
+    :commit: 6f9c819b5d11a1ad671c62cd42bb8f56002ad453
+    :git: https://github.com/facebook/AsyncDisplayKit.git
+  CryptoSwift:
+    :commit: c76b83fbdffcf4c3fb6dd1faab6fd31f4e974e25
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: e560e419627381f0ff055bae96310f44a6d2a5f1
+  Charts: 870589b6b4bf8468baacea8869c28983d71f602c
+  CryptoSwift: 5a6b725e2ad65a789f5f435dd434d38eb2c40b46
+
+COCOAPODS: 0.38.2

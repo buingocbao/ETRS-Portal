@@ -1,0 +1,144 @@
+/* 
+  Localizable.strings
+  ETRS Portal
+
+  Created by BBaoBao on 9/11/15.
+  Copyright (c) 2015 buingocbao. All rights reserved.
+*/
+
+//Day - Month
+monday = "Monday";
+tuesday = "Tuesday";
+wednesday = "Wednesday";
+thursday = "Thursday";
+friday = "Friday";
+saturday = "Saturday";
+sunday = "Sunday";
+
+january = "January";
+february = "February";
+march = "March";
+april = "April";
+may = "May";
+june = "June";
+july = "July";
+august = "August";
+september = "September";
+october = "October";
+november = "November";
+december = "December";
+
+month = "Month";
+year = "Year";
+
+//Alert Button
+ok = "Ok";
+cancel = "No, thanks";
+success = "Success";
+error = "Error";
+
+//Login screen
+account = "Account";
+password = "Password";
+login = "Login";
+forgot = "Forgot Password?";
+invalid = "Invalid";
+error = "Error";
+error_login_fail = "Login failed. Please check your Account and Password then try again.";
+invalid_acc_empty = "Account cannot be empty";
+invalid_pass_empty = "Password cannot be empty";
+invalid_pass_greater = "Password must be greater than 6 characters";
+missing = "Missing";
+missing_mess = "Please fill account text field.";
+pass_reset = "Password Reset";
+pass_reset_mess = "An email containing information on how to reset your password has been sent to ";
+
+//Time Record screen
+check = "CHECK";
+status = "Status";
+have_no_record_message = "You didn't make any record today. Would you like to check in right now?";
+success_check_in = "You made check in record successfully. Happy working!";
+error_check_in = "Something's wrong happened. Please report this error to admin: ";
+have_checkin_no_checkout_message1 = "Your check in record today is: ";
+have_checkin_no_checkout_message2 = ".\nWould you like to make check out record?";
+have_checkin_and_checkout_message1 = "Your check in record today is: ";
+have_checkin_and_checkout_message2 = ", and check out record today is: ";
+have_checkin_and_checkout_message3 = ".\nIf you have any problem, please contact to your manager or administrator to report.";
+
+success_check_out = "You made check out record successfully. See you again!";
+//Create Admin screen
+create_employee_mainLB = "CREATE A NEW EMPLOYEE";
+confirmPassword = "Confirm Password";
+firstName = "First Name";
+lastName = "Last Name";
+employee = "Employee";
+manager = "Manager";
+admin = "Admin";
+assign_supervisor = "Assign Supervisor";
+assign_beacon = "Assign Beacon";
+supervised_by = "Supervised by";
+beacon_is = "Beacon: ";
+assign_music = "Assign Music";
+commit_button = "Commit";
+signUp_success = "Sign Up Succeed";
+signUp_success_mess = "An email containing confirmation proceed has been sent to ";
+error_signup = "Error happened! Please contact to Developer to report this error.";
+
+//Manage Orgranization Screen
+manage_orgranization = "Manage Organization";
+
+////Pick Employee Screen
+supervisor = "Supervisor";
+device = "Device";
+email_status = "Email Status";
+email_status_true = "VERIFIED";
+email_status_false = "NOT VERIFIED";
+save = "Save";
+warning = "Warning";
+reset_employee_device = "This function is to reset registered device of this employee. Do you really want to reset?";
+
+//Manager Beacon Screen
+manage_beacon = "Manage Beacon";
+
+////Pick Beacon Screen
+beacon_descriptionLB = "Description";
+
+////Add New Beacon
+add = "ADD";
+add_beacon = "Add New Beacon";
+error_denied_beacon = "Your device has denied beacon ranging. Please change permission in your device's setting.";
+error_restricted_beacon = "Your device has restricted location services. Please change permission in your device's setting.";
+error_ranging_beacon = "Failed to ranging beacons because: ";
+error_context_beacon = "Please choose the CONTEXT of beacon.";
+error_color_beacon = "Please choose the COLOR of beacon by touching on beacon image.";
+success_add_beacon = "Successfully added beacon.";
+error_add_beacon = "Failed add beacon because: ";
+error_exist_beacon = "This beacon is already existed with information: ";
+error_denied_add_employee = "You don't have right to do this function.";
+
+//Manage Company Screen
+manage_company = "Manage Company";
+
+////Offical Hours Screen
+offical_hours = "Offical Hours";
+set_start_hours = "SET START";
+set_end_hours = "SET END";
+
+////KPI Employee Pick
+kpi_employee = "Employee KPI";
+no_chart_data = "CANNOT FIND ANY RECORD OF THIS EMPLOYEE.";
+save_graph_to_cameraroll = "This function will save the chart of current employee in current month and year to your camera roll. Do you agree with that?";
+start_record_BT_title = "IN";
+end_record_BT_title = "OUT";
+
+////Export Record Screen
+export_record = "Export Record";
+all_employee = "All Employees";
+selected_employees = "Selected Employee(s)";
+pick_at_least_one_emp = "Please select at least one employee to export record.";
+
+//Setting Screens
+setting = "Setting";
+////Change Language Screen
+language = "Language";
+changed_language_success = "Changed language successfully. You'll be led to home page.";

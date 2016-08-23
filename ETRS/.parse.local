@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "ETRS": {
+      "applicationId": "4OnWb9XZC1jm5FpuH8J6JTaH2Gq1obJvudbE4aba"
+    },
+    "_default": {
+      "link": "ETRS"
+    }
+  }
+}
